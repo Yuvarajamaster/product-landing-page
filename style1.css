@@ -1,0 +1,237 @@
+#header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: white
+}
+
+#title-about {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 28px;
+}
+
+.titles {
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 25px;
+
+}
+
+.flex-items {
+    width: 100px;
+    font-size: 25px;
+}
+
+
+
+#header-img {
+
+    width: 180px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgba(250, 235, 215, 0.576);
+    margin:  0px  40px 0px 40px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+       
+}
+
+.f1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+
+
+#form1 {
+    margin-top: 100px;
+    /* background-color: rgba(77, 219, 219, 0.799); */
+    width: 100%;
+    height: 250px;
+    
+}
+
+#email {
+    width: 200px;
+    height: 25px;
+}
+
+#submit {
+    margin-top: 5px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(46, 250, 216, 0.889);
+}
+
+.centerform {
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(73, 214, 172, 0.674);
+    height: auto;
+    padding-top: 50px;
+    margin: 0px 150px 0px 180px;
+    border-radius: 15px;
+    padding-bottom: 25px;
+
+}
+
+.container1 {
+    width: 100px;
+}
+
+
+.content-box {
+    
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.logos {
+    align-self: center;
+    padding-right: 20px;
+}
+
+
+
+#products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    /* background-color: rgba(242, 93, 250, 0.66); */
+    height: 500px;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.box {
+    border: black solid 2px;
+    height: 400px;
+    text-align: center;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.box:hover {
+    background-color: rgba(172, 241, 241, 0.576);
+}
+
+.product-name {
+    background-color: rgba(72, 243, 197, 0.611);
+    height: 50px;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.product-image {
+    padding-top: 30px;
+}
+
+.select {
+    padding-top: 20px;
+    
+    
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgba(46, 250, 216, 0.889);
+}
+
+.button:hover {
+    transform: scale(1.15);
+}
+
+.sub-logos {
+    width: 50px;
+    height: 50px;
+}
+
+#products-image1 {
+    width: 165px;
+    height: 200px;
+}
+#products-image2 {
+    width: 155px;
+    height: 195px;
+}
+
+#embedded-video {
+    margin-top: 20px;
+    padding-top: 45px;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.embedded {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+#videos {
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+#hero {
+    font-size: 50px;
+    font-family: 'Karla', sans-serif;
+}
+
+span {
+    font-size: 80px;
+    font-family: 'Karla', sans-serif;
+    background: -webkit-linear-gradient(rgb(58, 57, 57), rgb(54, 222, 152));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width:600px)
+{
+    #content {
+        background-color: white;
+    }
+}
